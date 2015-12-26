@@ -11,9 +11,11 @@
 <style>
     #top {
        font-family: 'Open Sans', sans-serif;
-       background-image: url("site/images/header_bg.jpg");
+       background: url("site/images/header_bg.jpg"); 
        background-position: center;
+       background-position: no-repeat;
        text-align: center;
+       background-size: 100% 100%;
    }
   	#middle {
        font-family: 'Open Sans', sans-serif;
@@ -26,43 +28,52 @@
       font-size:  24px;
       color: white;
       text-align: left;
-      padding-left: 20px;
+      padding-left: 100px;
     }
     p.header {
       font-weight: 600px;
       font-size: 24px;
       text-align: center;
       color: white;
-    }
+ 	 }
  	 h2 {
- 	  font-weight: 800px;
+ 	  font-family: 'Open Sans', sans-serif;
+ 	  font-weight: 900px;
  	  font-size: 14px;
- 	  color:#033048;
+ 	  text-align: center;
  	  background-color: #f9e42e;
+ 	  color:#033048;
  	  border-radius: 5px;
+ 	  width: 100px;
+ 	  padding: 20px 40px;
+ 	  margin: auto;
  	 }
  	 h3 {
  	 	font-weight: 600px; 
  	 	font-size: 20px;
  	 	text-align: left;
  	 	color: #033048;
+ 	 	padding-left: 100px;
  	 }
  	p.bullets {
  		text-align: left;
  		font-size: 13px;
  		font-weight: 300px;
  		color: #033048;
+ 		padding-left: 100px;
  	 }
  	 ul {
  	 	text-align: left;
  		font-size: 13px;
  		font-weight: 300px;
  		color: #033048;
+ 		padding-left: 130px;
  	 }
  	 #quote {
  	   font-family: 'Open Sans', sans-serif;
  	   background-image: url("site/images/testimonial_bg.jpg");
        background-position: center;
+       background-size: cover;
        text-align: center;
        }
 
@@ -72,19 +83,28 @@
        text-align: center;
        color: white;
  	 }
+ 	 #sign {
+ 	 	background-color: #f9e42e;
+ 	 	padding: 25px;
+ 	 }
  	 h4 {
- 	 	font-weight: 900px;
- 	 	font-size: 12px; 
- 	 	border-radius: 5px;
- 	  	color: white;
- 	  	background-color: #f9e42e;
-
+ 	   font-family: 'Open Sans', sans-serif;
+       background-color: #033048;
+       text-align: center;
+       font-size: 12px;
+       font-weight: 900px;
+       border-radius: 5px;
+       width: 100px;
+       color: white;
+       padding: 15px 50px;
+ 	   margin: auto;
  	 }
  	 h5 {
  	 	font-weight: 800px;
      	font-size:  24px;
       	color: #f9e42e;
       	text-align: center;
+      	padding-top: 30px;
  	 }
  	 p.bottom {
  	 	font-size: 9px;
@@ -95,19 +115,23 @@
  	 #footer  {
  	   font-family: 'Open Sans', sans-serif;
        background-color: #121212;
-       padding: 10px;
        text-align: center;
+       padding-bottom: 10px;
  	 }
 </style>
 
 <body>
 
 <div id="top">
+	<br></br>
   	 <h1>Relaxr</h1>
 		<p class="header">Get piece of mind with a single tap</p>
+		<br></br>
 	<h2>Get it Now</h2>
+	<br></br>
+	<br></br>
+	<br></br>
 </div>
-
 <div id="middle">
 	<h3>Benefits</h3>
 			<p class="bullets">The perfect personal assistant. Relaxr does your job for you so you can enjoy life as it is meant to be.</p>
@@ -142,9 +166,3 @@
 </body>
 
 </html>
-
-benefits background color: #f0efef
-yellow: #f9e42e
-dark blue: #033048
-light grey: #606161
-almost black: #121212
