@@ -1,4 +1,5 @@
     @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic');
+    /*ND: So this way of including Google fonts works, but per W3C, it's preferable to put it in the head of your html file*/
     #top {
         font-family: 'Open Sans', sans-serif;
         background-image: url("images/header_bg.jpg");
@@ -113,6 +114,7 @@
         font-weight: 600;
         color: white;
     }
+    /*ND: Descendant selectors, nice!*/
     #footer {
         font-family: 'Open Sans', sans-serif;
         background-color: #121212;
